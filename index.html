@@ -48,10 +48,10 @@
 
 <body>
 
-    <header class="w-11/12 mx-auto">
+    <header class="w-11/12 mx-auto font-RaleWay">
         <nav>
             <!-- Menu -->
-            <div class="navbar bg-base-100">
+            <div class="navbar bg-base-100 mb-10">
                 <div class="navbar-start">
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -69,7 +69,7 @@
                             <li><a>Search</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-xl">C-Ticketing</a>
+                    <a class="btn btn-ghost text-xl font-bold">C-Ticketing</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
@@ -80,7 +80,7 @@
                     </ul>
                 </div>
                 <div class="navbar-end md:block hidden text-end ">
-                    <a class="btn bg-[#1cd10029] text-[#1cd100] border border-[#1cd10065]">
+                    <a class="btn bg-buttonColor text-primary border border-[#1cd10065]">
                         Bus
                         <img src="images/bus-icon.png" alt="">
                     </a>
@@ -88,9 +88,50 @@
             </div>
         </nav>
         <!-- Hero Section -->
-        <section>
-            <div>
-
+        <section class="font-RailWay">
+            <div
+                class="bg-[url('images/banner.png')] bg-cover bg-center w-full md:h-[80vh] h-screen rounded-xl flex flex-col justify-center items-center py-10 md:py-0 md:relative">
+                <!-- Text Contents -->
+                <div class="text-center space-y-3">
+                    <h2 class="font-extrabold text-white md:text-6xl text-4xl">End-to-End Trave With</h2>
+                    <h2 class="text-primary font-bold md:text-5xl text-3xl">Chowdhury Paribanhan</h2>
+                    <p class="text-center max-w-screen-sm text-gray-200 md:text-xl p-5">
+                        Yes, you can run unit tests and view the results directly within the app. The integrated testing
+                        features allow for a streamlined .
+                    </p>
+                    <button class="bg-primary text-black font-bold text-xl rounded-xl px-6 py-3">
+                        Buy Tickets
+                    </button>
+                </div>
+               
+            </div>
+              <!-- Cards -->
+              <div 
+              class="w-full md:flex gap-5 justify-center md:absolute md:-bottom-8 right-0 left-0 md:my-0 my-5 md:space-y-0 space-y-5">
+                <!-- 1 -->
+                <div class="bg-white border-b-4 border-primary flex justify-center items-center rounded-xl py-5 px-10 gap-3">
+                    <img src="images/people.png" alt="">
+                    <div>
+                        <p class="text-4xl font-bold">500K+</p>
+                        <p class="text-gray-500 mt-2 font-semibold">Register Users</p>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="bg-white border-b-4 border-primary flex justify-center items-center rounded-xl py-5 px-10 gap-3">
+                    <img src="images/ticket-cupon.png" alt="">
+                    <div>
+                        <p class="text-4xl font-bold">1.7 lacks</p>
+                        <p class="text-gray-500 mt-2 font-semibold">Ticket Sold</p>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="bg-white border-b-4 border-primary flex justify-center items-center rounded-xl py-5 px-10 gap-3">
+                    <img src="images/stoppage.png" alt="">
+                    <div>
+                        <p class="text-4xl font-bold">80K+</p>
+                        <p class="text-gray-500 mt-2 font-semibold">Rental Partners</p>
+                    </div>
+                </div>
             </div>
         </section>
     </header>
